@@ -1,6 +1,7 @@
 Revision history for TCP::LowLevel
 
 {{$NEXT}}
+  * Do not throw an exception on a closed connection
 
 0.0.1  2019-06-23T20:23:22-06:00
   * Initial release

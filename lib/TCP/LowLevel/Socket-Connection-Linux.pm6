@@ -99,7 +99,7 @@ method Supply(:$bin? -->Supply:D) {
             default {
                 $supplier.done;
                 self.close if $!state ≠ SOCKET_CLOSED;
-                .rethrow;
+                # .rethrow;  We should consider how we handle this.
             }
         }
     }
