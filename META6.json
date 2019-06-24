@@ -9,11 +9,14 @@
     "NativeHelpers::Blob",
     "StrictClass"
   ],
-  "description" : "is a Never-Decreasing Time-Elapsed Counter",
+  "description" : "Perl 6 bindings for NativeCall TCP on Linux w/ Non-NativeCall Fallback`",
   "license" : "Artistic-2.0",
   "name" : "TCP::LowLevel",
   "perl" : "6.c",
   "provides" : {
+    "TCP::LowLevel" : "lib/TCP/LowLevel.pm6",
+    "TCP::LowLevel::Socket-Connection-Linux" : "lib/TCP/LowLevel/Socket-Connection-Linux.pm6",
+    "TCP::LowLevel::Socket-Linux" : "lib/TCP/LowLevel/Socket-Linux.pm6"
   },
   "resources" : [ ],
   "source-url" : "https://github.com/jmaslak/Perl6-TCP-LowLevel.git",
