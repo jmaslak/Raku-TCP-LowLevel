@@ -10,37 +10,37 @@ $*OUT.out-buffer = False;
 
 use TCP::LowLevel;
 
-subtest 'Perl Native Sockets', {
+subtest 'Perl Native Sockets', sub {
     temp $TCP::LowLevel::linux = False;
     do-test;
 }
 
-subtest 'Perl Native Sockets (Bin)', {
+subtest 'Perl Native Sockets (Bin)', sub {
     temp $TCP::LowLevel::linux = False;
     do-test(:bin);
 }
 
-subtest 'Linux Sockets', {
+subtest 'Linux Sockets', sub {
     plan :skip-all("Not Linux") unless $TCP::LowLevel::linux;
     do-test;
 }
 
-subtest 'Linux Sockets (Bin)', {
+subtest 'Linux Sockets (Bin)', sub {
     plan :skip-all("Not Linux") unless $TCP::LowLevel::linux;
     do-test(:bin);
 }
 
-subtest 'MD5 Sockets', {
+subtest 'MD5 Sockets', sub {
     plan :skip-all("No MD5 Support") unless TCP::LowLevel.supports-md5;
     do-test('test test test');
 }
 
-subtest 'MD5 Sockets (Failure with unsigned client)', {
+subtest 'MD5 Sockets (Failure with unsigned client)', sub {
     plan :skip-all("No MD5 Support") unless TCP::LowLevel.supports-md5;
     do-fail-test('test test test');
 }
 
-subtest 'MD5 Sockets (Failure with client having bad signature)', {
+subtest 'MD5 Sockets (Failure with client having bad signature)', sub {
     plan :skip-all("No MD5 Support") unless TCP::LowLevel.supports-md5;
     do-fail-test('test test test', 'bogus bogus bogus');
 }
