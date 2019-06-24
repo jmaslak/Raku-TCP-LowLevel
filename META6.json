@@ -1,0 +1,23 @@
+{
+  "auth" : "cpan:JMASLAK",
+  "authors" : [
+    "Joelle Maslak"
+  ],
+  "build-depends" : [ ],
+  "depends" : [
+    "if",
+    "NativeHelpers::Blob",
+    "StrictClass"
+  ],
+  "description" : "is a Never-Decreasing Time-Elapsed Counter",
+  "license" : "Artistic-2.0",
+  "name" : "TCP::LowLevel",
+  "perl" : "6.c",
+  "provides" : {
+  },
+  "resources" : [ ],
+  "source-url" : "https://github.com/jmaslak/Perl6-TCP-LowLevel.git",
+  "tags" : [ ],
+  "test-depends" : [ ],
+  "version" : "0.0.1"
+}
