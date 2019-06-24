@@ -134,6 +134,12 @@ using Linux, this module is essentially a factory for the built-in asyncronous
 network libraries, although functionality such as MD5 authentication headers
 is not available in this mode.
 
+=head1 WARNING
+
+This module may experience some interface changes as I determine the best
+possible interface. I will however try to keep the existing public interface
+working as documented in this documentation.
+
 =head1 ATTRIBUTES
 
 =head2 my-host

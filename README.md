@@ -46,6 +46,11 @@ DESCRIPTION
 
 On Linux, this module utilizes NativeCall to use the low level socket library in an asyncronous way. This allows enhanced functionality, such as the use of the MD5 authentication header option (see internet RFC 2385). When not using Linux, this module is essentially a factory for the built-in asyncronous network libraries, although functionality such as MD5 authentication headers is not available in this mode.
 
+WARNING
+=======
+
+This module may experience some interface changes as I determine the best possible interface. I will however try to keep the existing public interface working as documented in this documentation.
+
 ATTRIBUTES
 ==========
 
