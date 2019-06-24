@@ -66,11 +66,9 @@ sub do-test($md5?, Bool :$bin?) {
         # Handle incomming connections
         whenever $server-tcp.acceptor -> $conn {
             # Simple echo server
-            # whenever $conn.Supply(:$bin) -> $msg {
-            whenever $conn -> $msg {
+            whenever $conn.Supply(:$bin) -> $msg {
                 if $bin {
-                    # $conn.write: $msg;
-                    $conn.print: $msg;
+                    $conn.write: $msg;
                 } else {
                     $conn.print: $msg;
                 }
