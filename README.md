@@ -3,7 +3,7 @@
 NAME
 ====
 
-TCP::LowLevel - Perl 6 bindings for NativeCall TCP on Linux w/ Non-NativeCall Fallback`
+TCP::LowLevel - Raku bindings for NativeCall TCP on Linux w/ Non-NativeCall Fallback`
 
 SYNOPSIS
 ========
@@ -142,7 +142,7 @@ Returns `True` if MD5 authentication is supported on the platform, `False` other
 USING CONNECTION OBJECTS
 ========================
 
-The objects returned by the `acceptor` Supply or the `connect()` Promise may be Perl native objects or the wrapper around the Linux networking libraries.
+The objects returned by the `acceptor` Supply or the `connect()` Promise may be Raku native objects or the wrapper around the Linux networking libraries.
 
 METHODS
 -------

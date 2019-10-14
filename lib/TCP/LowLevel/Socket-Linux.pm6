@@ -10,7 +10,7 @@ use v6;
 #
 
 use StrictClass;
-unit class TCP::LowLevel::Socket-Linux:ver<0.0.2>:auth<cpan:JMASLAK>
+unit class TCP::LowLevel::Socket-Linux:ver<0.0.3>:auth<cpan:JMASLAK>
     does StrictClass;
 
 use NativeCall;
