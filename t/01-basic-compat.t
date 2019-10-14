@@ -10,12 +10,12 @@ $*OUT.out-buffer = False;
 
 use TCP::LowLevel;
 
-subtest 'Perl Native Sockets', sub {
+subtest 'Raku Native Sockets', sub {
     temp $TCP::LowLevel::linux = False;
     do-test;
 }
 
-subtest 'Perl Native Sockets (Bin)', sub {
+subtest 'Raku Native Sockets (Bin)', sub {
     temp $TCP::LowLevel::linux = False;
     do-test(:bin);
 }

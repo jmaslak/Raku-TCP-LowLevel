@@ -90,7 +90,7 @@ method supports-md5(-->Bool:D) {
 
 =head1 NAME
 
-TCP::LowLevel - Perl 6 bindings for NativeCall TCP on Linux w/ Non-NativeCall Fallback`
+TCP::LowLevel - Raku bindings for NativeCall TCP on Linux w/ Non-NativeCall Fallback`
 
 =head1 SYNOPSIS
 
@@ -237,7 +237,7 @@ otherwise.
 =head1 USING CONNECTION OBJECTS
 
 The objects returned by the C<acceptor> Supply or the C<connect()> Promise
-may be Perl native objects or the wrapper around the Linux networking
+may be Raku native objects or the wrapper around the Linux networking
 libraries.
 
 =head2 METHODS
