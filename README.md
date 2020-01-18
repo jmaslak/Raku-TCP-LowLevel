@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/jmaslak/Perl6-TCP-LowLevel.svg?branch=master)](https://travis-ci.org/jmaslak/Perl6-TCP-LowLevel)
+[![Build Status](https://travis-ci.org/jmaslak/Raku-TCP-LowLevel.svg?branch=master)](https://travis-ci.org/jmaslak/Raku-TCP-LowLevel)
 
 NAME
 ====
