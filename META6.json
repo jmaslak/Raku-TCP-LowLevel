@@ -19,8 +19,8 @@
     "TCP::LowLevel::Socket-Linux" : "lib/TCP/LowLevel/Socket-Linux.pm6"
   },
   "resources" : [ ],
-  "source-url" : "https://github.com/jmaslak/Perl6-TCP-LowLevel.git",
+  "source-url" : "https://github.com/jmaslak/Raku-TCP-LowLevel.git",
   "tags" : [ ],
   "test-depends" : [ ],
-  "version" : "0.0.3"
+  "version" : "0.0.4"
 }
