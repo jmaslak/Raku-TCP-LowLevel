@@ -1,6 +1,7 @@
 Revision history for TCP::LowLevel
 
 {{$NEXT}}
+  * [Bugfix] No longer free()ing addrinfo structure before finished with it
 
 0.0.4  2020-01-18T23:51:16Z
   * Perl 6 --> Raku Git Hub repo rename

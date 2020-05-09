@@ -297,8 +297,8 @@ method connect(Str:D $host, Int:D $port where ^(2¹⁶), Bool :$bin -->Promise:D
 
     start {
         my $rv = native-connect($!socket-fd, $addrinfo.ai_addr, $size);
-        self.freeaddrinfo($addrinfo);
         if $rv {
+            self.freeaddrinfo($addrinfo);
             $promise.break("Could not connect ($rv)");
         } else {
             $!state = SOCKET_BOUND;
@@ -310,6 +310,7 @@ method connect(Str:D $host, Int:D $port where ^(2¹⁶), Bool :$bin -->Promise:D
                 :peer-family($addrinfo.ai_family),
                 :socket-fd($!socket-fd),
             );
+            self.freeaddrinfo($addrinfo);
             
             $promise.keep($conn);
         }
