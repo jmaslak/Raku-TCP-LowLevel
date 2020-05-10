@@ -1,7 +1,7 @@
 use v6;
 
 #
-# Copyright © 2018-2019 Joelle Maslak
+# Copyright © 2018-2020 Joelle Maslak
 # All Rights Reserved - See License
 #
 

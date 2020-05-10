@@ -1,7 +1,7 @@
 use v6;
 
 #
-# Copyright © 2018-2019 Joelle Maslak
+# Copyright © 2018-2020 Joelle Maslak
 # All Rights Reserved - See License
 #
 # Some of this is "borrowed" from https://docs.perl6.org/language/nativecall .
@@ -268,7 +268,7 @@ Joelle Maslak <jmaslak@antelope.net>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright © 2018-2019 Joelle Maslak
+Copyright © 2018-2020 Joelle Maslak
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
