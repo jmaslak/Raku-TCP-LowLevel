@@ -70,7 +70,7 @@ method recv(-->buf8) {
     }
 
     if $rv == 0 { return buf8.new; }
-   
+
     return $buf.subbuf(0..^($rv));
 }
 
