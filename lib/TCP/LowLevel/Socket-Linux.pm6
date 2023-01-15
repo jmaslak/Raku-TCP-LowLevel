@@ -254,7 +254,7 @@ method find-bound-port(-->Int) {
 }
 
 # listen(sockfd, backlog)
-sub native-listen(int32, int32) is native is symbol('listen') {*}
+sub native-listen(int32, int32 -->int32) is native is symbol('listen') {*}
 
 method listen(-->Nil) {
     if $!state ≠ SOCKET_BOUND { die "Socket in improper state ( $!state )" }
