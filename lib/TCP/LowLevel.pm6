@@ -10,7 +10,7 @@ use v6;
 #
 
 use StrictClass;
-unit class TCP::LowLevel:ver<0.1.1>:auth<zef:jmaslak> does StrictClass;
+unit class TCP::LowLevel:ver<0.1.2>:auth<zef:jmaslak> does StrictClass;
 
 use if;
 use TCP::LowLevel::Socket-Linux:if($*KERNEL.name eq 'linux');

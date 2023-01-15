@@ -2,7 +2,7 @@ Revision history for TCP::LowLevel
 
 {{$NEXT}}
 
-0.1.1  2023-01-15T00:21:16-07:00
+0.1.2  2023-01-15T00:24:04-07:00
   * [bugfix] Properly use Nativecode interface to get return value of
     listen() (code fix by niner)
 
